@@ -19,7 +19,7 @@ To ensure uniformity across the dataset, I applied the following preprocessing s
 
 Image Resizing: All images were resized to 128x128 pixels.
 Normalization: The pixel values were scaled to fall between 0 and 1 to improve the model's performance during training.
-
+#
 from keras.preprocessing.image import ImageDataGenerator
 
 # Image preprocessing
