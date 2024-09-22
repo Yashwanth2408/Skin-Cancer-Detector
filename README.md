@@ -1,7 +1,8 @@
 # Skin-Cancer-Detector
 Our Skin Cancer Detection System uses Convolutional Neural Networks (CNNs) to analyze images and identify skin lesions with 70.79% accuracy. Trained on the HAM10000 dataset, it aims to assist in early detection and will be deployed as a web application for real-time diagnosis, highlighting AI's impact in healthcare.
 
-Introduction
+#Introduction
+
 I’ve always been fascinated by the potential of deep learning in healthcare. With this project, I set out to create a deep learning model to detect skin cancer from medical images, leveraging the power of Convolutional Neural Networks (CNNs). The project involves training a CNN on a popular skin cancer dataset and then using that trained model to make predictions on new images.
 
 In this documentation, I’ll walk through each step of the process, from working with the dataset to model creation, evaluation, and making predictions. The final goal is to deploy the model for real-world applications, enabling it to assist in the early detection of skin cancer.
