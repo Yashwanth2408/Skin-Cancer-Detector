@@ -7,6 +7,7 @@ I’ve always been fascinated by the potential of deep learning in healthcare. W
 In this documentation, I’ll walk through each step of the process, from working with the dataset to model creation, evaluation, and making predictions. The final goal is to deploy the model for real-world applications, enabling it to assist in the early detection of skin cancer.
 
 1. Dataset Overview
+
 HAM10000 Dataset
 For this project, I used the HAM10000 dataset, a well-known dataset in the field of dermatology. The dataset includes 10,015 images of pigmented skin lesions that fall into seven categories, including both benign and malignant conditions. These categories represent different types of skin diseases such as melanoma, basal cell carcinoma, and benign nevi.
 
