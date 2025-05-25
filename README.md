@@ -16,7 +16,7 @@ A deep learning system that classifies skin lesions as benign or malignant using
 pip install tensorflow keras streamlit pyngrok google-generativeai pillow
 
 1. Clone repository:
-git clone https://github.com/yourusername/skin-cancer-detection.git
+git clone https://github.com/Yashwanth2408/Skin-Cancer-Detector.git
 cd skin-cancer-detection
 
 2. Add Gemini API key:
@@ -65,7 +65,8 @@ model = Sequential([
     Flatten(),
     Dense(128, activation='relu'),
     Dense(1, activation='sigmoid')
-])```
+])
+```
 
 
 
