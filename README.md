@@ -1,6 +1,6 @@
 # Skin Cancer Detection Using CNN with Streamlit Deployment
 
-![Demo](https://melanoma-cancer.streamlit.app/~/+/media/...)
+![Demo](https://colab.research.google.com/drive/1Q55Xse-NMl-t6cMzkQC2tRUHrXgurMnN?usp=sharing)
 
 A deep learning system that classifies skin lesions as benign or malignant using Convolutional Neural Networks (CNN). Achieves 90%+ accuracy on the HAM10000 dataset and features a Streamlit web interface with AI-powered dermatologist chat.
 
