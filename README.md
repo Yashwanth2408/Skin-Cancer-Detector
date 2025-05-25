@@ -96,6 +96,13 @@ model = Sequential([
 - Develop mobile app version
 - Integrate telemedicine features
 
+## Download Trained Data Files
+
+The trained data files required for this project are stored on Google Drive due to their size.
+
+[Download trained data files from Google Drive](https://drive.google.com/drive/folders/13bC0VTjWUu4NOqkKbZuO6-gnXR7Qab93?usp=sharing)
+
+
 ## FAQ
 **Q: How accurate is the model?**  
 A: Current validation accuracy exceeds 90%, but always consult a dermatologist for medical diagnosis.
