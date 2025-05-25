@@ -50,17 +50,23 @@ HAM10000 Dataset (10,015 images across 7 classes):
 | df       | Dermatofibroma              |
 
 ## Model Architecture
-Sequential([
-Conv2D(32, (3,3), activation='relu', input_shape=(128,128,3)),
-MaxPooling2D(2,2),
-Conv2D(64, (3,3), activation='relu'),
-MaxPooling2D(2,2),
-Conv2D(128, (3,3), activation='relu'),
-MaxPooling2D(2,2),
-Flatten(),
-Dense(128, activation='relu'),
-Dense(1, activation='sigmoid')
-])
+
+```python
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+
+model = Sequential([
+    Conv2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3)),
+    MaxPooling2D(2, 2),
+    Conv2D(64, (3, 3), activation='relu'),
+    MaxPooling2D(2, 2),
+    Conv2D(128, (3, 3), activation='relu'),
+    MaxPooling2D(2, 2),
+    Flatten(),
+    Dense(128, activation='relu'),
+    Dense(1, activation='sigmoid')
+])```
+
 
 
 ## Evaluation Metrics
