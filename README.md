@@ -15,38 +15,26 @@ A deep learning system that classifies skin lesions as benign or malignant using
 ## Installation
 pip install tensorflow keras streamlit pyngrok google-generativeai pillow
 
-text
-
 1. Clone repository:
 git clone https://github.com/yourusername/skin-cancer-detection.git
 cd skin-cancer-detection
-
-text
 
 2. Add Gemini API key:
 In app.py
 genai.configure(api_key="YOUR_API_KEY")
 
-text
-
 ## Usage
 streamlit run app.py
-
-text
 
 For Colab deployment:
 !ngrok authtoken YOUR_NGROK_TOKEN
 !streamlit run app.py &>/dev/null&
-
-text
 
 ## Project Structure
 ├── app.py # Streamlit interface
 ├── my_model.h5 # Trained CNN model
 ├── requirements.txt # Dependencies
 └── README.md # Documentation
-
-text
 
 ## Dataset Details
 HAM10000 Dataset (10,015 images across 7 classes):
@@ -74,7 +62,6 @@ Dense(128, activation='relu'),
 Dense(1, activation='sigmoid')
 ])
 
-text
 
 ## Evaluation Metrics
 - Test Accuracy: 90.23%
@@ -94,8 +81,6 @@ text
 3. Run deployment cell in Colab:
 !ngrok authtoken YOUR_NGROK_TOKEN
 !streamlit run app.py &>/dev/null&
-
-text
 
 ## Future Enhancements
 - Expand dataset with real patient cases
